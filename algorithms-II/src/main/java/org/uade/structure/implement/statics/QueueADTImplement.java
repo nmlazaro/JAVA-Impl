@@ -11,7 +11,7 @@ public class QueueADTImplement implements QueueADT {
         this.queue = new int[capacity];
         this.startOfQueue = -1;
         this.endOfQueue = -1;
-    }       
+    }
 
     @Override
     public int getElement() {
